@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails',       '~> 5.0.0'
+gem 'rails', '~> 5.0.1'
 gem 'app'
 gem 'pg'
 gem 'nokogiri',    '>= 1.6.8' # security update
@@ -11,8 +11,8 @@ gem "simple_form"
 gem 'haml'
 gem 'jquery-rails'
 gem 'lodash-rails'
-gem 'sass-rails'
-gem 'twitter-bootstrap-rails'
+gem 'sass-rails', '>= 5.0.6'
+gem 'twitter-bootstrap-rails', '>= 3.2.2'
 gem 'jquery-ui-rails', '< 6' # fixes active admin dep issue
 
 # activeadmin
