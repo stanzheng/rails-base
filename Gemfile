@@ -13,7 +13,7 @@ gem 'jquery-rails'
 gem 'lodash-rails'
 gem 'sass-rails'
 gem 'twitter-bootstrap-rails'
-gem 'jquery-ui-rails', '< 6' # fixes active admin dep issue
+gem 'jquery-ui-rails', '~> 6.0' # fixes active admin dep issue
 
 # activeadmin
 gem 'activeadmin'        , git: 'https://github.com/activeadmin/activeadmin'
