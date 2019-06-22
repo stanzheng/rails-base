@@ -9,7 +9,7 @@ gem "simple_form"
 
 # Front End
 gem 'haml'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.3.4'
 gem 'lodash-rails'
 gem 'sass-rails'
 gem 'twitter-bootstrap-rails'
