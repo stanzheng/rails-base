@@ -18,7 +18,7 @@ gem 'jquery-ui-rails', '< 6' # fixes active admin dep issue
 # activeadmin
 gem 'activeadmin'        , git: 'https://github.com/activeadmin/activeadmin'
 gem 'inherited_resources', git: 'https://github.com/activeadmin/inherited_resources'
-gem 'devise'
+gem 'devise', '>= 4.7.1'
 
 # Services
 gem 'analytics-ruby', require: 'segment'
